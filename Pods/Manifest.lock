@@ -1,0 +1,244 @@
+PODS:
+  - ActiveLabel (0.8.1)
+  - Alamofire (4.5.0)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Cosmos (11.0.3)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.40)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.40)
+    - FBSDKLoginKit (~> 4.40)
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.40)
+    - FBSDKShareKit (~> 4.40)
+  - FBSDKCoreKit (4.40.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.40.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.40.0):
+    - FBSDKCoreKit
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - Firebase/Messaging (3.17.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.3)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FirebaseMessaging (1.2.3):
+    - FirebaseAnalytics (~> 3.8)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FLAnimatedImage (1.0.12)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleMaps (2.4.0):
+    - GoogleMaps/Maps (= 2.4.0)
+  - GoogleMaps/Base (2.4.0)
+  - GoogleMaps/Maps (2.4.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.4.0):
+    - GoogleMaps/Base (= 2.4.0)
+  - GoogleSignIn (4.0.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.1)":
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.1)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.1)
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.1)"
+  - GTMOAuth2 (1.1.4):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.11):
+    - GTMSessionFetcher/Full (= 1.1.11)
+  - GTMSessionFetcher/Core (1.1.11)
+  - GTMSessionFetcher/Full (1.1.11):
+    - GTMSessionFetcher/Core (= 1.1.11)
+  - IQKeyboardManagerSwift (6.0.2)
+  - Kingfisher (3.11.0)
+  - Protobuf (3.7.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - SearchTextField (1.0.10)
+  - SendBirdSDK (3.0.96)
+  - Sharaku (1.0.2)
+  - SteviaLayout (3.2.0)
+  - SVProgressHUD (2.1.2)
+  - SwiftyJSON (3.1.4)
+  - TagListView (1.2.0)
+  - TTTAttributedLabel (2.0.0)
+  - TwitterCore (3.1.0)
+  - TwitterKit (3.3.0):
+    - TwitterCore (>= 3.1.0)
+  - YPImagePicker (1.2.0):
+    - SteviaLayout (~> 3.2.0)
+
+DEPENDENCIES:
+  - ActiveLabel
+  - Alamofire
+  - AlamofireImage
+  - Cosmos
+  - FacebookCore (from `https://github.com/facebook/facebook-sdk-swift`, branch `master`)
+  - FacebookLogin (from `https://github.com/facebook/facebook-sdk-swift`, branch `master`)
+  - FacebookShare (from `https://github.com/facebook/facebook-sdk-swift`, branch `master`)
+  - Firebase/Core
+  - Firebase/Messaging
+  - FLAnimatedImage (~> 1.0)
+  - Google/SignIn
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - SDWebImage
+  - SearchTextField (~> 1.0.2)
+  - SendBirdSDK
+  - Sharaku
+  - SVProgressHUD
+  - SwiftyJSON
+  - TagListView (~> 1.2.0)
+  - TTTAttributedLabel
+  - TwitterKit
+  - YPImagePicker (from `https://github.com/Yummypets/YPImagePicker.git`, branch `1.2.1`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActiveLabel
+    - Alamofire
+    - AlamofireImage
+    - Bolts
+    - Cosmos
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FLAnimatedImage
+    - Google
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - Protobuf
+    - SDWebImage
+    - SearchTextField
+    - SendBirdSDK
+    - Sharaku
+    - SteviaLayout
+    - SVProgressHUD
+    - SwiftyJSON
+    - TagListView
+    - TTTAttributedLabel
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  FacebookCore:
+    :branch: master
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :branch: master
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookShare:
+    :branch: master
+    :git: https://github.com/facebook/facebook-sdk-swift
+  YPImagePicker:
+    :branch: 1.2.1
+    :git: https://github.com/Yummypets/YPImagePicker.git
+
+CHECKOUT OPTIONS:
+  FacebookCore:
+    :commit: 9e6b057c915628c030f38417e143799f1ca28ac8
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookLogin:
+    :commit: 9e6b057c915628c030f38417e143799f1ca28ac8
+    :git: https://github.com/facebook/facebook-sdk-swift
+  FacebookShare:
+    :commit: 9e6b057c915628c030f38417e143799f1ca28ac8
+    :git: https://github.com/facebook/facebook-sdk-swift
+  YPImagePicker:
+    :commit: 0696ea18e278167d8d527c0ae3dd89cd090a5b26
+    :git: https://github.com/Yummypets/YPImagePicker.git
+
+SPEC CHECKSUMS:
+  ActiveLabel: e361127c355b911a467db3d5a897b3d7f902e568
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Cosmos: eb506859929f4add2d2aec822a27efb2f718a95d
+  FacebookCore: 0a5306cc83e54d9b5a20bfac00b64f98d23b6f72
+  FacebookLogin: d98cc7f09be9e1869eb07cad563ba7aebed03d27
+  FacebookShare: 9edf0273a6aa757b59d4262637dabf920d3e9df2
+  FBSDKCoreKit: ae214474b25033399c131dc81d258e412582a2ba
+  FBSDKLoginKit: 7a1e411d46acc8834588eca437daf34de42e1d52
+  FBSDKShareKit: 0e45916f4150da485928ae2a17ca021950b194f5
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FirebaseMessaging: 753d05a925e9eb8eadd09a0ffc9b808578b72fac
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleMaps: 8436ab5d1c25e36915b2f7416d0c8e3fa2e76c61
+  GooglePlaces: aafe5990fa7951e98e078761bbdaaf236d7e0c65
+  GoogleSignIn: d7ad83f13480e1f30453471d00d19b5293ac46af
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  GTMOAuth2: 4eb69243935d2ca2650f8b18026770de5dc19e87
+  GTMSessionFetcher: 5ad62e8200fa00ed011fe5e08d27fef72c5b1429
+  IQKeyboardManagerSwift: 59d4b0e140bc546c3c76ae5bb35b3dafd10b8172
+  Kingfisher: c8911a7672c6217dec8c0520fb6e76ec4b7e0780
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  SearchTextField: e271b2719880f907045e30ed3bef02fc4418c877
+  SendBirdSDK: e1247b1284a48ffa6f34f554b6d645ec34d4ff74
+  Sharaku: c18de569fc99f6e936f46ca812b571826cc658a7
+  SteviaLayout: 85c405f118ddb8637d0674ef6a79eefb792bf90b
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TagListView: 999e1df50c0f6b9ca927fae705c86a7e3b6ee9ba
+  TTTAttributedLabel: 8cffe8e127e4e82ff3af1e5386d4cd0ad000b656
+  TwitterCore: 644d59e75abccb26cf0a9050d2c4dea0e5412241
+  TwitterKit: a2e60ddcedbf54091eac6f27685ca7a87681e1d7
+  YPImagePicker: c1ded98adce94baae70db7144ff583540a2a356c
+
+PODFILE CHECKSUM: a4cd7cc212985de820c539e0240bf241e04e06a3
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Brandon_reg_0.otf">
+            <string>BrandonGrotesque-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupChannelChattingViewController" customModule="SmartChef" customModuleProvider="target">
+            <connections>
+                <outlet property="backButtonClicked" destination="aDH-mE-NHl" id="clf-20-7zs"/>
+                <outlet property="bottomMargin" destination="5Ab-UI-o7I" id="7si-8B-fQY"/>
+                <outlet property="chattingView" destination="AAA-Vq-7hk" id="yX1-BT-ENu"/>
+                <outlet property="navItem" destination="XbV-PA-rdE" id="5bP-Nt-a0o"/>
+                <outlet property="titileLabel" destination="Rvt-Tm-fSY" id="hd0-Cy-Riz"/>
+                <outlet property="topBar" destination="QiC-j8-AhU" id="kHr-Mz-6qi"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="37l-RV-YBp">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="64" id="gFk-9g-M0b"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Title" id="XbV-PA-rdE"/>
+                    </items>
+                </navigationBar>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QiC-j8-AhU">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="0.0"/>
+                    <color key="backgroundColor" red="0.32501319049999999" green="0.65108108519999996" blue="0.43192729349999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" id="gEw-Nc-yx8"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAE-OL-hhe">
+                    <rect key="frame" x="12" y="-16" width="87" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="87" id="bLJ-JI-cOb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="17"/>
+                    <state key="normal" title="Chat"/>
+                    <connections>
+                        <action selector="backButton:" destination="-1" eventType="touchUpInside" id="5Pv-gr-zi0"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rvt-Tm-fSY">
+                    <rect key="frame" x="119" y="0.0" width="175" height="0.0"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="BrandonGrotesque-Regular" family="Brandon Grotesque" pointSize="19"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backButton" translatesAutoresizingMaskIntoConstraints="NO" id="aDH-mE-NHl">
+                    <rect key="frame" x="5" y="-6" width="13" height="13"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AAA-Vq-7hk" customClass="ChattingView" customModule="SmartChef" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="64" width="414" height="672"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QiC-j8-AhU" secondAttribute="trailing" id="4l7-dp-cUK"/>
+                <constraint firstAttribute="bottom" secondItem="AAA-Vq-7hk" secondAttribute="bottom" id="5Ab-UI-o7I"/>
+                <constraint firstItem="Rvt-Tm-fSY" firstAttribute="leading" secondItem="gAE-OL-hhe" secondAttribute="trailing" constant="20" id="6Dp-lk-YlX"/>
+                <constraint firstItem="AAA-Vq-7hk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6TI-Ys-n4Z"/>
+                <constraint firstItem="AAA-Vq-7hk" firstAttribute="top" secondItem="37l-RV-YBp" secondAttribute="bottom" id="7h0-6I-ZK3"/>
+                <constraint firstItem="gAE-OL-hhe" firstAttribute="centerY" secondItem="QiC-j8-AhU" secondAttribute="centerY" id="HGU-IW-JD6"/>
+                <constraint firstItem="37l-RV-YBp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NAi-6v-l37"/>
+                <constraint firstItem="QiC-j8-AhU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Obd-ty-INb"/>
+                <constraint firstItem="QiC-j8-AhU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="St0-I4-cMQ"/>
+                <constraint firstItem="Rvt-Tm-fSY" firstAttribute="centerY" secondItem="QiC-j8-AhU" secondAttribute="centerY" id="T1Z-gQ-e1r"/>
+                <constraint firstItem="aDH-mE-NHl" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="5" id="eDJ-Wr-FJJ"/>
+                <constraint firstItem="37l-RV-YBp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fMb-Td-tBM"/>
+                <constraint firstItem="Rvt-Tm-fSY" firstAttribute="centerX" secondItem="QiC-j8-AhU" secondAttribute="centerX" id="pSY-fd-9dL"/>
+                <constraint firstItem="aDH-mE-NHl" firstAttribute="centerY" secondItem="gAE-OL-hhe" secondAttribute="centerY" id="taT-Vc-jRc"/>
+                <constraint firstAttribute="trailing" secondItem="37l-RV-YBp" secondAttribute="trailing" id="uez-4l-rbu"/>
+                <constraint firstAttribute="trailing" secondItem="AAA-Vq-7hk" secondAttribute="trailing" id="vXg-FO-oE6"/>
+                <constraint firstItem="gAE-OL-hhe" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="12" id="xSD-yi-hgd"/>
+            </constraints>
+            <point key="canvasLocation" x="24" y="52"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backButton" width="13" height="13"/>
+    </resources>
+</document>

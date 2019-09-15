@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ApplePay.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>16A63863782FAB9CEEA1E9F7480A432835D3CEA5</string>
+				<key>dateExpires</key>
+				<string>24/11/18</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>16A63863782FAB9CEEA1E9F7480A432835D3CEA5</string>
+						<key>dateExpires</key>
+						<string>24/11/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>H33YZ5QENT</string>
+						<key>name</key>
+						<string>GO Retrieve Ltd</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>16A63863782FAB9CEEA1E9F7480A432835D3CEA5</string>
+						<key>dateExpires</key>
+						<string>24/11/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SDWebImage.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>H33YZ5QENT</string>
+						<key>name</key>
+						<string>GO Retrieve Ltd</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>16A63863782FAB9CEEA1E9F7480A432835D3CEA5</string>
+						<key>dateExpires</key>
+						<string>24/11/18</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyJSON.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>H33YZ5QENT</string>
+						<key>name</key>
+						<string>GO Retrieve Ltd</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>H33YZ5QENT.codeApp.ApplePay</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>H33YZ5QENT</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>H33YZ5QENT.codeApp.ApplePay</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>ApplePay.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>c04543a9-cc48-4889-8bef-1514c3d9465e</string>
+				<key>name</key>
+				<string>ApplePay</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>H33YZ5QENT</string>
+				<key>name</key>
+				<string>GO Retrieve Ltd</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
